@@ -1,0 +1,103 @@
+<style>
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 60px;
+    font-family: Arial, sans-serif;
+  }
+
+  .intro {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.job {
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.greets {
+  color: green;
+  margin-top: 5px;
+}
+
+  .thanks {
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 30%;
+  }
+
+  .clickable {
+    color: blue; 
+    text-decoration: underline; 
+    cursor: pointer; 
+  }
+
+ .links{
+  color: black;
+  display: flex;
+ } 
+ .hobby, .games, .movies {
+    border: 1px solid black;
+    flex-basis: 30%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+ .hobby {
+  flex-basis: 30%;
+  margin-left: auto;
+ }
+
+ .games {
+  flex-basis: 40%;
+  justify-content: center;
+  text-align: center;
+ }
+
+ .movies {
+  flex-basis: 30%;
+  justify-content: right;
+  text-align: right;
+ }
+</style>
+<body>
+
+  <h1>Welcome to My First Website</h1>
+  <div class="intro">
+    <p class="name">Hi! My name is Jurica, I was born and raised in capital of Croatia, Zagreb.</p>
+    <p class="job">I'm a Graphic Designer currently learning to code, so here is a little introduction about myself :)</p>
+    <p class="greets">Hope, you're gonna like it!</p>
+  </div>  
+  
+  <div class="links">
+    <div class="hobby">
+      <img src="../jurica-barta/pictures/mali-losinj-one.jpeg" width="350" height="200" alt="Hobby"><br>
+      <span><a href="./hobbies/hobby.html" class="clickable">Click here</a> to see my hobbies</span>
+    </div>
+    
+    <div class="games">
+      <img src="../jurica-barta/pictures/rdr2.jpg" width="350" height="auto" alt="Games"><br>
+      <span><a href="./games/game.html" class="clickable">Click here</a> to see my favorite games</span>
+    </div>
+    
+    <div class="movies">
+      <img src="../jurica-barta/pictures/lotr.jpg" width="350" height="auto" alt="Movies"><br>
+      <span><a href="./movies/movie.html" class="clickable">Click here</a> to see my favorite movies</span>
+    </div>
+  </div>
+
+  <div class="thanks">
+    <p>Thank you for letting me introduce myself! have a great day!</p>
+  </div>
+  <span><a href="../pages/about.html" class="clickable">Click here</a> to go back</span>
+</body>

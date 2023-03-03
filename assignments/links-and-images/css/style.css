@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header h1 {
+  align-items: center;
+  height: 60px;
+  padding: 0 500px;
+}
+
+.header p {
+  margin: 10px;
+  padding-right: 840px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.links-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.links a {
+  text-align: center;
+  margin-right: 10px;
+  color: black;
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+body {
+  background-color: gray;
+}
+
+
+
+
+
+
